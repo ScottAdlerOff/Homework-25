@@ -65,8 +65,8 @@ public class CalculatorParamTest {
         return  Stream.of(
                 Arguments.of(6,2,3),
                 Arguments.of(10,5,2),
-                Arguments.of(5,2.5,2),
-                Arguments.of(15,7,7.5)
+                Arguments.of(5,2.5f,2),
+                Arguments.of(15,2,7.5f)
         );
     }
 }
